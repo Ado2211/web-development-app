@@ -4,8 +4,6 @@ import {Header, Navbar, RecommendedServices, Needs, LastProjects, Contact, Foote
 
 const App = () => {
   return (
-    
-
       <div className="app">
         <Navbar />
         <Header  />
@@ -15,7 +13,6 @@ const App = () => {
         <Contact />
         <Footer />
       </div>
-    
   );
 }
 

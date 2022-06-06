@@ -1,8 +1,8 @@
 import React from "react";
 
-const Needs = () => { 
-    return ( 
-<div>Needs</div>
+const Needs = () => {
+    return (
+        <div>Needs</div>
     )
 }
 
