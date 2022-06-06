@@ -6,8 +6,6 @@ import Needs from './Needs/Needs';
 import LastProjects from './LastProjects/LastProjects';
 import RecommendedServices from './RecommendedServices/RecommendedServices';
 
-
-
 export {
   Navbar,
   Contact,
