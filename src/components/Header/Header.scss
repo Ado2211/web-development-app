@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: hsl(204,23.8%,95.9%);
+    color: var(--text-color);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /*=============== REUSABLE CSS CLASSES ===============*/
+  .section {
+    padding: 4.5rem 0 2rem;
+  }
+  
+  .section__title {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .section__height {
+    height: 100vh;
+  }
+  
+  /*=============== LAYOUT ===============*/
+  .container {
+    max-width: 968px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  /*=============== HEADER ===============*/
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:hsl(34.9,98.6%,72.9%);
+    z-index: var(--z-fixed);
+    transition: .4s;
+    
+  }
